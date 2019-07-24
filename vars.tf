@@ -11,7 +11,9 @@ variable "tnt_id" {
     default = ""
 }
 variable "rg_name" {}
-variable "location" {}
+variable "location" {
+    defult = "West India"
+}
 variable "hub-vnet-name" {}
 variable "app1-vnet-name" {}
 variable "app2-vnet-name" {}
